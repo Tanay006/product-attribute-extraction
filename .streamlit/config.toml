@@ -1,0 +1,18 @@
+# Light mode only (theme is pinned; the app never follows the OS dark setting)
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#f5f7fb"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#1f2937"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"      # hides the Settings menu (and its theme switcher)
+
+[server]
+headless = true
+maxUploadSize = 5            # MB, used by the batch CSV upload
+
+[browser]
+gatherUsageStats = false

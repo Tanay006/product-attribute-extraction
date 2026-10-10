@@ -1,0 +1,10 @@
+# Core
+streamlit>=1.46        # st.navigation(position="top") needs >=1.46; developed and tested with 1.65.0
+spacy>=3.7,<3.9        # tested with 3.8.16 - use the same minor version that trained your model (see README)
+plotly>=5.20           # interactive charts (tested with 7.1.0)
+pandas>=2.0            # tested with 3.0.2
+numpy>=1.26            # tested with 2.4.4
+
+# Needed by the project's own audit.py (evaluation + Word report)
+matplotlib>=3.8        # tested with 3.10.8
+python-docx>=1.1       # tested with 1.2.0
